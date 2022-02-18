@@ -1,0 +1,30 @@
+GET http://localhost:5000/todos
+
+###
+GET http://localhost:5000/todos/620b35ea3abe081c1e428236
+
+###
+POST http://localhost:5000/todos
+Content-Type: application/json
+
+{
+ "title": "Buy milk",
+ "description": "Buy milk from the shop"
+}
+
+###
+
+DELETE http://localhost:5000/todos/620b2cdfa1402f1cb2d51515
+
+
+
+
+###
+PATCH http://localhost:5000/todos/620ba670a97690aba1a6fe50
+Content-Type: application/json
+
+{
+"title": "joggingaa",
+  "description": "run for 30 minutes",
+ "done": true
+}
